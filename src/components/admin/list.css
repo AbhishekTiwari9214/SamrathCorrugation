@@ -1,0 +1,28 @@
+.convert-btn, .not-convert-btn {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .convert-btn {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .not-convert-btn {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .convert-btn:hover {
+    background-color: #45a049;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .not-convert-btn:hover {
+    background-color: #e53935;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  

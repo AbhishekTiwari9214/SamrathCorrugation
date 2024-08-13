@@ -1,0 +1,45 @@
+/* src/FormComponent.css */
+
+.navbar {
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px; /* Adjust padding for a smaller navbar */
+    background-color: #333; /* Navbar background color */
+    color: #fff; /* Navbar text color */
+    height: 60px; /* Set a fixed height for the navbar */
+}
+
+.logo {
+    flex: 2; /* Increase the flex value to make the logo take more space */
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the logo */
+}
+
+.logo img {
+    height: 50px; /* Decrease the logo size */
+    width: auto;
+}
+
+.nav-links {
+    display: flex;
+    margin-right: 100px;
+    gap: 15px; /* Adjust space between links */
+    flex: 3; /* Adjust flex value to balance the space */
+    justify-content: flex-end; /* Align links to the right */
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px; /* Adjust font size */
+    font-weight: bold;
+    transition: color 0.3s; /* Add transition effect for hover */
+}
+
+.nav-link:hover {
+    color: #f0f0f0; /* Lighter color on hover for better visibility */
+}

@@ -1,0 +1,22 @@
+.homePageHeading{
+    font-size: 100px;
+    padding: 10px;
+  }
+  .types{
+    font-size: 85px;
+    background: linear-gradient(to right, #b7b7b7, #ffffff);  padding: 10px;
+    padding: 10px;
+  }
+  .moreTypesButton{
+    width: 100%;
+    background: linear-gradient(to right, #b7b7b7, #ffffff);  padding: 10px;
+  
+  }
+  .moreTypesButton{
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
