@@ -23,6 +23,7 @@ const Dashboard = () => {
               <th>Phone</th>
               <th>Business Work</th>
               <th>Action</th>
+              <th>View</th>
             </tr>
           </thead>
           <tbody>
